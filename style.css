@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(36, 36, 36);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+
+.main-container{
+    margin: auto;
+    text-align: center;
+}
+
+.clock{
+    background-image: url(./clock-image.jpg) ;
+    background-repeat: no-repeat;
+    width: 300px ;
+    height:  300px;
+    margin: auto;
+}
+
+.hour-hand,
+.minute-hand,
+.second-hand{
+    position: absolute;
+    background-color: black;
+    transform-origin: bottom;
+    border-radius: 10px;
+}
+
+.hour-hand{
+    width: 1%;
+    height: 9%;
+    left: 49.5%;
+    top: 14.5%;
+}
+
+.minute-hand{
+    width: 1%;
+    height: 11.5%;
+    left: 50%;
+    top: 12.5%;
+    
+}
+
+.second-hand{
+    width: 0.5%;
+    height: 11.5%;
+    left: 49.75%;
+    top: 12.5%;
+}
